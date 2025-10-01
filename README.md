@@ -6,3 +6,6 @@ This convention indicates the folder is for organizational purposes and should n
 Another use case is the define multiple root layouts.
 
 git checkout -b <branch-name>
+git add .
+git commit -m "commit message"
+git push
