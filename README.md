@@ -4,3 +4,5 @@ A route group can be created by wrapping a folder's name in parenthesis: (folder
 This convention indicates the folder is for organizational purposes and should not be included in the route's URL path.
 
 Another use case is the define multiple root layouts.
+
+git checkout -b <branch-name>

@@ -61,7 +61,7 @@ export default function UserDropDown() {
               <span className="text-base font-medium text-gray-400">
                 {user.name}
               </span>
-              <span className="text-sm text-gray-500">{user.email}</span>
+              <span className="text-sm text-gray-500">{user.email}dsdasd</span>
             </div>
           </div>
         </DropdownMenuLabel>
