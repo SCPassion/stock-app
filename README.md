@@ -5,7 +5,21 @@ This convention indicates the folder is for organizational purposes and should n
 
 Another use case is the define multiple root layouts.
 
-git checkout -b <branch-name>
+# Create a new branch and push it to the repo
+
+git switch -c <branch-name>
+...code changes...
 git add .
 git commit -m "commit message"
 git push
+
+# Now you can go to the repo and create a pull request
+
+# Switch to main branch and pull the latest changes
+
+git switch main
+git pull
+
+# Clean up the branch
+
+git branch -d <branch-name>
