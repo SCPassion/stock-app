@@ -23,3 +23,11 @@ git pull
 # Clean up the branch
 
 git branch -d <branch-name>
+
+# Delete the branch from the repo
+
+git push origin --delete <branch-name>
+
+# 4. Clean up remote tracking references
+
+git remote prune origin
