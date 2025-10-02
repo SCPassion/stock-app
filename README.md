@@ -7,27 +7,31 @@ Another use case is the define multiple root layouts.
 
 # Create a new branch and push it to the repo
 
+```bash
 git switch -c <branch-name>
+```
 ...code changes...
+```bash
 git add .
 git commit -m "commit message"
 git push
-
+```
 # Now you can go to the repo and create a pull request
 
 # Switch to main branch and pull the latest changes
-
+```bash
 git switch main
 git pull
-
+```
 # Clean up the branch
-
+```bash
 git branch -d <branch-name>
-
+```
 # Delete the branch from the repo
-
+```bash
 git push origin --delete <branch-name>
-
+```
 # 4. Clean up remote tracking references
-
+```bash
 git remote prune origin
+```
