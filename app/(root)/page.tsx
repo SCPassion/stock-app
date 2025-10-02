@@ -32,7 +32,7 @@ export default function page() {
         </div>
       </section>
       <section className="grid w-full gap-8 home-section">
-        <div className="h-full md:col-span1 xl:col-span-1">
+        <div className="h-full md:col-span-1 xl:col-span-1">
           <TradingViewWidget
             scriptUrl={scriptUrl + "timeline.js"}
             config={TOP_STORIES_WIDGET_CONFIG}
